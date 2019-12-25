@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/android/Sample-CRUD-Greendao" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cobagit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/uas-android" vcs="Git" />
+  </component>
+</project>

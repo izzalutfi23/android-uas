@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorKuning"
+        android:textAlignment="center"
+        android:text="INPUT DATA KEGIATAN"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/bakgron"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorAbuabu">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Kode Keg      :"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Nama Keg :"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Tgl Keg :"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Waktu Keg :"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Tempat keg :"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Tujuan :"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Keterangan :"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/bakgron"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorAbuabu">
+            <EditText
+                android:id="@+id/xkode"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:id="@+id/xnama"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/xtgl"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/xwaktu"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/xtempat"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/xtujuan"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/xketerangan"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/tblAdd"
+            android:layout_width="wrap_content"
+            android:text="SIMPAN"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/tblView"
+            android:layout_width="wrap_content"
+            android:text="VIEW"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:text="Update"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:text="Delete"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
